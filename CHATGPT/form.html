@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Inserisci Utente</title>
+</head>
+<body>
+    <h2>Inserisci Nuovo Utente</h2>
+    <form action="inserisci_utente.php" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="cognome">Cognome:</label><br>
+        <input type="text" id="cognome" name="cognome" required><br><br>
+
+        <label for="professione">Professione:</label><br>
+        <input type="text" id="professione" name="professione"><br><br>
+
+        <label for="curriculum">Link al Curriculum (PDF):</label><br>
+        <input type="url" id="curriculum" name="curriculum"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Telefono:</label><br>
+        <input type="text" id="telefono" name="telefono"><br><br>
+
+        <label for="localita">Località:</label><br>
+        <input type="text" id="localita" name="localita"><br><br>
+
+        <input type="submit" value="Inserisci Utente">
+    </form>
+</body>
+</html>

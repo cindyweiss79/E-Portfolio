@@ -1,0 +1,82 @@
+.header{
+    position: relative;
+    background-color: rgb(57, 63, 87);
+    height: 90px;
+    font-weight: 100;
+}
+
+.footer {
+    bottom: auto;
+    background-color: rgb(57, 63, 87);
+    height: 70px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+.video-background {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: relative;
+    z-index: 10;
+    left: 40%;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+
+main {
+    padding-top: 550px; /* Add some space from the video */
+    background-color:rgb(57, 63, 87);
+}
+
+#cardPrimo {
+    background-color: rgb(34, 38, 52);
+    color: white;
+    text-align: justify;
+    font-family: sans-serif;
+}
+#cardSecondo {
+    background-color: rgb(34, 38, 52);
+    color: white;
+}
+
+
+#containerSecondo-overlay {
+    background-image: url("image/mountain.jpg");
+    background-size: cover;        
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+
+.custom-btn {
+    width: 130px;
+    padding: 6px 20px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
